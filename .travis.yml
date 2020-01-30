@@ -35,7 +35,7 @@ env:
 
 sudo: required
 dist: trusty
-
+arch: ppc64le
 cache:
   yarn: true
   directories:
