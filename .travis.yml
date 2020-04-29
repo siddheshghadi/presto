@@ -2,4 +2,5 @@ arch: ppc64le
 language: c
 
 script:
-  - travis_wait 15 sleep 12m 
+  - travis_wait 15 sleep 12m &
+  - bash
